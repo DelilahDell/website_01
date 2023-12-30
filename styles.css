@@ -4,7 +4,7 @@ body {
 }
 
 .background {
-    background-image: url('file:///Users/dell/Desktop/Screenshot%202023-12-29%20at%2011.14.41%E2%80%AFAM.png'); /* Replace 'background.jpg' with the path to your background image */
+    background-image: url('/BG_Website.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
