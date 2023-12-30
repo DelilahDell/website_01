@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url('file:///Users/dell/Desktop/Screenshot%202023-12-29%20at%2011.14.41%E2%80%AFAM.png'); /* Replace 'background.jpg' with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    color: white;
+}
+
+.icons {
+    margin-top: 20px;
+}
+
+.icons a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.icons img {
+    width: 50px; /* Adjust the size of your icons */
+    height: 50px;
+}

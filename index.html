@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mariya Delilah Kirchatova - Video Editor, AE</title>
+    <style id="nameStyle"></style>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif; /* Change the font-family as needed */
+        }
+
+        #name {
+            font-size: 50px; /* Change the font size as needed */
+            font-weight: bold; /* Adjust font weight as needed */
+            text-align: center; /* Change text alignment as needed */
+            margin-bottom: 10px; /* Adjust margin as needed */
+        }
+
+        #additionalText {
+            font-size: 38px; /* Change the font size as needed */
+            text-align: center; /* Change text alignment as needed */
+            color: #E5F3FD; /* Change text color as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <h1 id="name">Mariya Delilah Kirchatova</h1>
+            <p id="additionalText">Video Editor, AE</p>
+            <div class="icons">
+                <a href="https://www.youtube.com/watch?v=ZN7-VZgJj74" target="_blank">
+                    <img src="file:///Users/dell/Downloads/R_Icon.png" alt="Reel Icon">
+                </a>
+                <a href="https://www.linkedin.com/in/mariya-kirchatova-44296391/" target="_blank">
+                    <img src="file:///Users/dell/Downloads/LI_Icon.png" alt="LinkedIn Icon">
+                </a>
+                <a href="mailto:mkirchatova@gmail.com">
+                    <img src="file:///Users/dell/Downloads/EM_Icon.png" alt="Email Icon">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        // JavaScript to dynamically change the color of the name
+        const nameElement = document.getElementById('name');
+        const nameStyleElement = document.getElementById('nameStyle');
+
+        // You can change the color value to any valid CSS color value (e.g., 'red', '#00ff00', 'rgb(255, 0, 0)')
+        const nameColor = '#E5F3FD';
+
+        // Apply the color to the name
+        nameElement.style.color = nameColor;
+
+        // Optional: If you want to set the color in the stylesheet
+        nameStyleElement.innerHTML = `#name { color: ${nameColor}; }`;
+    </script>
+</body>
+</html>
